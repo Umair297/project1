@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background: #FF0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.backgroundCode{
+    background: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.wrapper{
+    text-align: center;
+}
+.btn{
+    width: 30%;
+    margin-top: 15px;
+    background: gainsboro;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
